@@ -115,7 +115,7 @@ Date tomorrowsDate( Date TodayD)
         TodayD.Month = 3;
     }
     /**< If the Day entered is the 30th */
-    if ( TodayD.Day == 30 )
+    else if ( TodayD.Day == 30 )
     {
         if ( TodayD.Month == 4 || TodayD.Month == 6 || TodayD.Month == 9 || TodayD.Month == 11 )
         {
